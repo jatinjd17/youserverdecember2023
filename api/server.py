@@ -79,7 +79,8 @@ def example():
     # channelinfocollection.delete_many({})
     sss = channelinfocollection.insert_one(dataa)
 
-    return {'channeldetails': channeldetailss, 'videodetails':videos }
+    # return {'channeldetails': channeldetailss, 'videodetails':videos }
+    return 'Channel has been added to Shoutout wall. Please wait for sometime to reflect on stream.'
 
     if param_value:
         return f'The value of "param" is: {param_value}'
