@@ -79,7 +79,7 @@ def example():
     # channelinfocollection.delete_many({})
     channelname = channeldetailss[0]['channelname']
     if not videos:
-         return f'${channelname} we have problem adding your channel. Make sure you have uploaded videos and make your channel public so that we can get info of your channel.'
+         return f'{channelname} we have problem adding your channel. Make sure you have uploaded videos and make your channel public so that we can get info of your channel.'
          
     sss = channelinfocollection.insert_one(dataa)
 
